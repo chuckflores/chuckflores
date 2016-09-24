@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="43px" viewBox="0 0 47 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A2D9D9" offset="0%"></stop>
+            <stop stop-color="#69B2B2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#79809E" offset="0%"></stop>
+            <stop stop-color="#444964" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13&quot;-MacBook-Pro-Copy-2" transform="translate(-34.000000, -15.000000)">
+            <g id="Group-2" transform="translate(34.000000, 15.000000)">
+                <path d="M21.7017268,42.9993867 C21.6469729,42.9997953 21.5921703,43 21.5373198,43 C9.64258653,43 0,33.3741221 0,21.5 C0,9.62587788 9.64258653,0 21.5373198,0 C21.5921703,0 21.6469729,0.000204687667 21.7017268,0.000613339575 L21.7017268,42.9993867 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <g id="Group" transform="translate(25.318681, 0.000000)">
+                    <polygon id="Rectangle-4" fill="#8679A1" points="0 13.030303 21.7017268 13.030303 1.97288426 43 0 43"></polygon>
+                    <polygon id="Rectangle-3" fill="url(#linearGradient-2)" points="0 0 21.7017268 0 1.97288426 43 0 43"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

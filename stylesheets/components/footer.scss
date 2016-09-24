@@ -1,0 +1,42 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+}
+
+.link-1 {
+  background-color: $green-1;
+  height: 60px;
+  width: 100%;
+}
+
+.link-2 {
+  background-color: $teal-1;
+  height: 60px;
+  width: 100%;
+}
+
+.link-3 {
+  background-color: $teal-2;
+  height: 60px;
+  width: 100%;
+}
+
+.link-4 {
+  background-color: $blue-grey-1;
+  height: 60px;
+  width: 100%;
+}
+
+.link-5 {
+  background-color: $purple-1;
+  height: 60px;
+  width: 100%;
+}
