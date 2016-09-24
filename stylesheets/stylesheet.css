@@ -172,8 +172,8 @@ h1 {
   text-shadow: -3px 3px 0px rgba(121, 128, 157, 0.43); }
   @media only screen and (max-width: 480px) {
     h1 {
-      font-size: 110px;
-      line-height: 110px; } }
+      font-size: 100px;
+      line-height: 100px; } }
   @media only screen and (max-width: 320px) {
     h1 {
       font-size: 90px;
@@ -219,6 +219,9 @@ body {
     clear: both;
     content: "";
     display: block; }
+  @media only screen and (max-width: 480px) {
+    .wrapper {
+      padding-top: 3em; } }
 
 .hero--home {
   float: left;
