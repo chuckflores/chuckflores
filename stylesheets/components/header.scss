@@ -1,8 +1,9 @@
 header {
+  align-items: center;
   display: flex;
   flex-direction: row;
+  height: $header-height;
   justify-content: space-between;
-  align-items: center;
-  height: 80px;
   padding: 0em 1.8em;
+  position: fixed;
 }

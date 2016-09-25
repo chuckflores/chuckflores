@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   @include outer-container;
-  padding-top: 5em;
+  padding: 5em 0 5em 0;
 
   @media only screen and (max-width: 480px) {
     padding-top: 3em;
@@ -16,6 +16,7 @@ body {
   @include span-columns(8);
   @include omega();
   @include shift(2);
+  margin-top: $header-height;
 }
 
 @media only screen and (max-width: 480px) {
