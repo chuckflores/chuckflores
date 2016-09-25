@@ -1,8 +1,29 @@
 @font-face {
+  font-family: 'NeueHansKendrick-Heavy';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff') format('woff');
+}
+
+@font-face {
   font-family: 'NeueHansKendrick-ExtraBold';
   src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-ExtraBold') format('woff2'),
         url('fonts/neue-hans-kendrick/NeueHansKendrick-ExtraBold') format('woff');
 }
+
+@font-face {
+  font-family: 'NeueHansKendrick-Bold';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Bold.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NeueHansKendrick-Medium';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff') format('woff');
+}
+
+$base-font-family: 'NeueHansKendrick-Heavy';
+$heading-font-family: $base-font-family;
 
 body {
   color: $base-font-color;
@@ -25,12 +46,12 @@ h6 {
 }
 
 h1 {
-  color: $teal-2;
+  color: $brand-orange;
+  font-family: 'NeueHansKendrick-ExtraBold';
   font-size: 156px;
   letter-spacing: -3px;
   line-height: 156px;
   margin: 0;
-  text-shadow: -3px 3px 0px rgba(121,128,157,0.43);
 
   @media only screen and (max-width: 480px) {
     font-size: 100px;
@@ -45,8 +66,18 @@ h1 {
 
 h3 {
   color: $purple-3;
-  font-family: 'NeueHansKendrick-ExtraBold';
+  font-family: 'NeueHansKendrick-Bold';
   font-size: 1.5em;
+
+  a {
+    color: $purple-3;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: shade($purple-3, 25%);
+    }
+  }
 }
 
 p {

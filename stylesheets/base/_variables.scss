@@ -1,8 +1,8 @@
 // Typography
 @font-face {
-  font-family: 'NeueHansKendrick-Heavy';
-  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff2') format('woff2'),
-        url('fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff') format('woff');
+  font-family: 'NeueHansKendrick-Regular';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff') format('woff');
 }
 
 $base-font-family: 'NeueHansKendrick-Heavy';
@@ -26,12 +26,14 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$white: #EFF1E8;
+$brand-orange: #CA8D67;
 
-$green-1: #206D5D;
-$teal-1: #408A84;
-$teal-2: lighten(#599D9E, 10%);
-$blue-grey-1: #476C7A;
-$purple-1: #343952;
+$gradient5-1: #B77745;
+$gradient5-2: #B68063;
+$gradient5-3: lighten(#B28577, 5%);
+$gradient5-4: #7C6569;
+$gradient5-5: #343952;
 $purple-2: #444964;
 $purple-3: #8679A1;
 
@@ -52,5 +54,5 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Animations
-$base-duration: 150ms;
+$base-duration: 250ms;
 $base-timing: ease;

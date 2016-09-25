@@ -5,8 +5,8 @@ html {
   box-sizing: inherit; }
 
 @font-face {
-  font-family: 'NeueHansKendrick-Heavy';
-  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff") format("woff"); }
+  font-family: 'NeueHansKendrick-Regular';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff") format("woff"); }
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -22,7 +22,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
-  transition: background-color 150ms ease;
+  transition: background-color 250ms ease;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
@@ -67,7 +67,7 @@ select[multiple=multiple] {
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
-  transition: border-color 150ms ease;
+  transition: border-color 250ms ease;
   width: 100%; }
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
   select[multiple=multiple]:hover {
@@ -144,8 +144,17 @@ th {
   vertical-align: middle; }
 
 @font-face {
+  font-family: 'NeueHansKendrick-Heavy';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Heavy.woff") format("woff"); }
+@font-face {
   font-family: 'NeueHansKendrick-ExtraBold';
   src: url("fonts/neue-hans-kendrick/NeueHansKendrick-ExtraBold") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-ExtraBold") format("woff"); }
+@font-face {
+  font-family: 'NeueHansKendrick-Bold';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Bold.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Bold.woff") format("woff"); }
+@font-face {
+  font-family: 'NeueHansKendrick-Medium';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff") format("woff"); }
 body {
   color: #333;
   font-family: "NeueHansKendrick-Heavy";
@@ -164,12 +173,12 @@ h6 {
   margin: 0 0 0.75em; }
 
 h1 {
-  color: #77b2b3;
+  color: #CA8D67;
+  font-family: 'NeueHansKendrick-ExtraBold';
   font-size: 156px;
   letter-spacing: -3px;
   line-height: 156px;
-  margin: 0;
-  text-shadow: -3px 3px 0px rgba(121, 128, 157, 0.43); }
+  margin: 0; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 100px;
@@ -181,8 +190,12 @@ h1 {
 
 h3 {
   color: #8679A1;
-  font-family: 'NeueHansKendrick-ExtraBold';
+  font-family: 'NeueHansKendrick-Bold';
   font-size: 1.5em; }
+  h3 a {
+    color: #8679A1; }
+    h3 a:active, h3 a:focus, h3 a:hover {
+      color: #655b79; }
 
 p {
   margin: 0 0 0.75em; }
@@ -190,7 +203,7 @@ p {
 a {
   color: #477dca;
   text-decoration: none;
-  transition: color 150ms ease; }
+  transition: color 250ms ease; }
   a:active, a:focus, a:hover {
     color: #355e98; }
 
@@ -258,31 +271,54 @@ footer {
 
 .link-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; }
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 60px;
+  transition: background-color 250ms ease;
   width: 100%; }
 
-.link-1 {
-  background-color: #206D5D;
-  height: 60px;
-  width: 100%; }
+.link:nth-child(1) {
+  background-color: #B77745; }
 
-.link-2 {
-  background-color: #408A84;
-  height: 60px;
-  width: 100%; }
+.link:nth-child(1):hover {
+  background-color: #bf8456; }
 
-.link-3 {
-  background-color: #77b2b3;
-  height: 60px;
-  width: 100%; }
+.link:nth-child(2) {
+  background-color: #B68063; }
 
-.link-4 {
-  background-color: #476C7A;
-  height: 60px;
-  width: 100%; }
+.link:nth-child(2):hover {
+  background-color: #be8e74; }
 
-.link-5 {
-  background-color: #343952;
-  height: 60px;
-  width: 100%; }
+.link:nth-child(3) {
+  background-color: #bb9487; }
+
+.link:nth-child(3):hover {
+  background-color: #c4a298; }
+
+.link:nth-child(4) {
+  background-color: #7C6569; }
+
+.link:nth-child(4):hover {
+  background-color: #8a7075; }
+
+.link:nth-child(5) {
+  background-color: #343952; }
+
+.link:nth-child(5):hover {
+  background-color: #3e4462; }
+
+svg {
+  fill: #EFF1E8; }
+
+.icon-link {
+  fill: #EFF1E8; }
+
+.dribbble {
+  fill: #EFF1E8; }
+
+.email {
+  fill: #EFF1E8; }
