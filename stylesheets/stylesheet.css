@@ -4,9 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-@font-face {
-  font-family: 'NeueHansKendrick-Regular';
-  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff") format("woff"); }
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -155,6 +152,9 @@ th {
 @font-face {
   font-family: 'NeueHansKendrick-Medium';
   src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Medium.woff") format("woff"); }
+@font-face {
+  font-family: 'NeueHansKendrick-Regular';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff") format("woff"); }
 body {
   color: #333;
   font-family: "NeueHansKendrick-Heavy";
@@ -168,7 +168,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "NeueHansKendrick-Heavy";
   line-height: 1.2;
   margin: 0 0 0.75em; }
 

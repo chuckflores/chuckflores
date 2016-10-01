@@ -1,10 +1,4 @@
 // Typography
-@font-face {
-  font-family: 'NeueHansKendrick-Regular';
-  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2') format('woff2'),
-        url('fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff') format('woff');
-}
-
 $base-font-family: 'NeueHansKendrick-Heavy';
 $heading-font-family: $base-font-family;
 
