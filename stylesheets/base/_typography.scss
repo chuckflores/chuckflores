@@ -28,7 +28,19 @@
         url('fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff') format('woff');
 }
 
-$base-font-family: 'NeueHansKendrick-Heavy';
+@font-face {
+  font-family: 'NeueHansKendrick-Light';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Light.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NeueHansKendrick-Thin';
+  src:  url('fonts/neue-hans-kendrick/NeueHansKendrick-Thin.woff2') format('woff2'),
+        url('fonts/neue-hans-kendrick/NeueHansKendrick-Thin.woff') format('woff');
+}
+
+$base-font-family: 'NeueHansKendrick-Regular';
 $heading-font-family: $base-font-family;
 
 body {
@@ -53,7 +65,7 @@ h6 {
 
 h1 {
   color: $brand-orange;
-  font-family: 'NeueHansKendrick-ExtraBold';
+  font-family: 'NeueHansKendrick-Heavy';
   font-size: 156px;
   letter-spacing: -3px;
   line-height: 156px;

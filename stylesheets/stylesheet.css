@@ -155,9 +155,15 @@ th {
 @font-face {
   font-family: 'NeueHansKendrick-Regular';
   src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'NeueHansKendrick-Light';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Light.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Light.woff") format("woff"); }
+@font-face {
+  font-family: 'NeueHansKendrick-Thin';
+  src: url("fonts/neue-hans-kendrick/NeueHansKendrick-Thin.woff2") format("woff2"), url("fonts/neue-hans-kendrick/NeueHansKendrick-Thin.woff") format("woff"); }
 body {
   color: #333;
-  font-family: "NeueHansKendrick-Heavy";
+  font-family: "NeueHansKendrick-Regular";
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1em;
   line-height: 1.5; }
@@ -173,7 +179,7 @@ h6 {
 
 h1 {
   color: #CA8D67;
-  font-family: 'NeueHansKendrick-ExtraBold';
+  font-family: 'NeueHansKendrick-Heavy';
   font-size: 156px;
   letter-spacing: -3px;
   line-height: 156px;
